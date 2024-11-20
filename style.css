@@ -1,0 +1,78 @@
+/* Общие стили */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: #CCD0CF;
+    background: linear-gradient(to bottom, #06141B, #11212D);
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #CCD0CF;
+    text-align: center;
+}
+
+a {
+    color: #9BA8AB;
+    text-decoration: none;
+}
+a:hover {
+    color: #A4C6A;
+    text-decoration: underline;
+}
+
+/* Шапка */
+header {
+    background-color: #253745;
+    color: #CCD0CF;
+    padding: 40px 20px;
+    text-align: center;
+}
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+/* Секция */
+section {
+    padding: 40px 20px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Навыки */
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+.skills li {
+    background: #11212D;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #CCD0CF;
+}
+
+/* Контакты */
+.contacts p {
+    margin: 10px 0;
+}
+.contacts a img {
+    max-width: 100px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+/* Подвал */
+footer {
+    background: #06141B;
+    color: #9BA8AB;
+    text-align: center;
+    padding: 10px 20px;
+}
